@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	section#maincontent.span12
+		div#mainbanner.hero-unit
+			div.navbar(style='margin-top:100px;margin-bottom:60px;display:inline-block')
+				div.navbar-inner
+					ul.nav
+						li
+							a(style="font-size:48px",href="#") HOME
+						li.divider-vertical
+						li
+							a(style="font-size:48px",href="#") PORTFOLIO
+						li.divider-vertical
+						li
+							a(style="font-size:48px",href="#") SERVICES
+						li.divider-vertical
+						li
+							a(style="font-size:48px",href="#") ABOUT 
+			div.span6.offset6(style="width:auto")
+				article
+					p(style="font-size:18px") "Do the best you can until you know better, then when you know better .. Do better" 
+						em(style="font-size:12px") -Maya Angelou
+			marquee Anguilla Antigua Barbados Bermuda Cayman Greneda Haiti Jamaica Martinique Nevis St. Kitts St. Lucia 

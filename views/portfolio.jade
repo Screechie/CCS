@@ -1,0 +1,30 @@
+extends layout
+
+block content
+	section#portfoliocontent.span12
+		div#portfoliobanner.hero-unit
+			div#Carousel.carousel.slide.pull-left
+				ol.carousel-indicators
+					li(data-target="#Carousel",data-slide-to="0").active
+					li(data-target="#Carousel",data-slide-to="1")
+					li(data-target="#Carousel",data-slide-to="2")
+				div.carousel-inner(style="height:100%;width=100px;")
+					div.active.item
+						img.carousel-image.img-polaroid(src="/images/sample1.png")
+						div.carousel-caption 
+							section
+								header
+									h4 Item Header
+										article Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim leo, eget convallis erat. Etiam id massa nibh. Ut pulvinar porttitor est, et fringilla dolor. Suspendisse potenti. Nunc ac fringilla risus. Praesent placerat tristique dui et dictum. Proin eu consectetur urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam bibendum velit id dolor malesuada porttitor.
+					div.item
+						a(href="#confirmDelete",role='button',data-toggle='modal')
+							img.carousel-image.img-polaroid(src="/images/sample2.jpeg",style="max-width:100%")
+					div.item
+						img.carousel-image.img-polaroid(src="/images/sample3.jpg",style="max-width:100%")
+						div.carousel-caption
+				a.carousel-control.left(href="#Carousel", data-slide="prev") &lsaquo;
+				a.carousel-control.right(href="#Carousel", data-slide="next") &rsaquo;
+			div#portfoliosidebar.pull-left
+				section
+					h2 Our Portfolio 
+					article Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim leo, eget convallis erat. Etiam id massa nibh. Ut pulvinar porttitor est, et fringilla dolor. Suspendisse potenti. Nunc ac fringilla risus. Praesent placerat tristique dui et dictum. Proin eu consectetur urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam bibendum velit id dolor malesuada porttitor.

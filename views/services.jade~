@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	section#servicecontent.span12
+		div#servicebanner.hero-unit
+			section
+				h2 Services
+				div.pservice
+					div.ptab#tser1
+					div.pbody#tbod1
+						h1 Tab1
+					div.ptab#tser2(style="position:absolute;left:110px")
+					div.pbody#tbod2
+						h1 Tab2
+

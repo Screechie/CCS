@@ -1,0 +1,61 @@
+extends layout
+
+block content
+	section#aboutcontent.span12
+		div#aboutbanner.hero-unit
+			h2 About US
+			div.accordion#aboutaccordion
+				div.accordion-group
+					div.accordion-heading
+						a.accordion-toggle.collapsed(data-toggle="collapse",data-parent="#aboutaccordion",href="#aboutcollapse1") Who We Are 
+					div.accordion-body.collapse#aboutcollapse1
+						div.accordion-inner Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim leo, eget convallis erat. Etiam id massa nibh. Ut pulvinar porttitor est, et fringilla dolor. Suspendisse potenti. Nunc ac fringilla risus. Praesent placerat tristique dui et dictum. Proin eu consectetur urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam bibendum velit id dolor malesuada porttitor.
+							
+				div.accordion-group
+					div.accordion-heading
+						a.accordion-toggle(data-toggle="collapse",data-parent="#aboutaccordion",href="#aboutcollapse2") Our Vision
+					div.accordion-body.collapse#aboutcollapse2
+						div.accordion-inner Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim leo, eget convallis erat. Etiam id massa nibh. Ut pulvinar porttitor est, et fringilla dolor. Suspendisse potenti. Nunc ac fringilla risus. Praesent placerat tristique dui et dictum. Proin eu consectetur urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam bibendum velit id dolor malesuada porttitor.
+
+				div.accordion-group
+					div.accordion-heading
+						a.accordion-toggle(data-toggle="collapse",data-parent="#aboutaccordion",href="#aboutcollapse3") Our Mission
+					div.accordion-body.collapse#aboutcollapse3
+						div.accordion-inner Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim leo, eget convallis erat. Etiam id massa nibh. Ut pulvinar porttitor est, et fringilla dolor. Suspendisse potenti. Nunc ac fringilla risus. Praesent placerat tristique dui et dictum. Proin eu consectetur urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam bibendum velit id dolor malesuada porttitor.
+				
+				div.accordion-group
+					div.accordion-heading
+						a.accordion-toggle(data-toggle="collapse",data-parent="#aboutaccordion",href="#aboutcollapse4") Contact Us
+					div.accordion-body.collapse#aboutcollapse4
+						div.accordion-inner
+							div#formdiv
+								section#email
+									h2 Email Us
+									form.form-horizontal#contactform
+										div.control-group
+											label.control-label(for="contactEmail") Email
+											div.controls
+												input#contactEmail(type="email",placeholder="Email")
+										div.control-group
+											label.control-label(for="contactName") Name
+											div.controls
+												input#contactName(type="text",placeholder="Name")
+										div.control-group
+											label.control-label Request:
+											div.controls
+												textarea
+										div.control-group
+											div.controls 
+												button.btn.btn-info Submit
+							div#infodiv
+								section#contactinfo
+									h2 Conact Us
+									p Phone:
+									p Email:
+									p Address:
+									p Something:
+					div.accordion-group
+					div.accordion-heading
+						a.accordion-toggle(data-toggle="collapse",data-parent="#aboutaccordion",href="#aboutcollapse5") Request a Quotation 
+					div.accordion-body.collapse#aboutcollapse5
+						div.accordion-inner Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim leo, eget convallis erat. Etiam id massa nibh. Ut pulvinar porttitor est, et fringilla dolor. Suspendisse potenti. Nunc ac fringilla risus. Praesent placerat tristique dui et dictum. Proin eu consectetur urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam bibendum velit id dolor malesuada porttitor.

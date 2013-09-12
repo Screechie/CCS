@@ -1,0 +1,200 @@
+@media(min-width:980px){}
+body{
+position:relative;
+}
+#headdiv{
+width:90% !important;
+margin-left:auto;
+margin-right:auto;
+height:100%;
+}
+
+#main {
+height:100px;
+background-color:#dce1e5;
+}
+
+#mainfooter {
+min-height:150px;
+background-color:#939799;
+width:100%;
+margin:0px 0px 0px 0px;
+}
+
+.footfollow{
+margin-left:5%;
+color: #fff;
+}
+
+#maincontent,#portfoliocontent,#servicecontent{
+width:100%;
+margin:10px 0px 0px 0px;
+}
+
+#mainbanner{
+width:80%;
+height:480px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.pservice{
+height:100%;
+width:80%;
+position:absolute;
+bottom:-90%;
+-webkit-transition:all .5s ease-in-out;
+transition:all .5s ease-in-out;
+}
+
+.activetab{
+bottom:-15%;
+cursor:pointer;
+}
+
+.ptab:hover{
+background-color:rgba(38, 87, 127, 1)
+}
+
+
+
+.ptab{
+top:0;
+z-index:10;
+height:10%;
+width:100px;
+background-color:#26577f;
+-webkit-border-radius:10px 10px 0 0;
+border-radius:10px 10px 0 0;
+-webkit-transition:all .5s ease-in-out;
+transition:all .5s ease-in-out;
+}
+
+.pbody{
+
+height:90%;
+width:100%;
+background-color:#d8d484;
+position:absolute;
+left:0px;
+-webkit-box-shadow:1px 1px 3px #fff;
+box-shadow:1px 1px 3px #eee;
+-webkit-border-radius:0 10px 0 0;
+border-radius:0 10px 0 0;
+
+}
+
+
+#portfoliobanner, #servicebanner{
+width:80%;
+height:480px;
+margin-left:auto;
+margin-right:auto;
+padding-top:15px;
+padding-bottom:15px;
+}
+#portfoliobanner{
+background-image: url(/images/blueprintbg.jpg);
+}
+
+#portfoliosidebar{
+position:relative;
+width:35%;
+height: 480px;
+background:#fff;
+margin-left:5%;
+border-radius:5px;
+}
+
+#portfoliosidebar section{
+display: block;
+margin:auto;
+}
+
+#portfoliosidebar section h2{
+text-align: center;
+}
+
+#portfoliosidebar section article{
+display: inline-block;
+margin: auto 10px;
+text-align: justify;
+}
+#mainbanner{
+width:80%;
+height:300px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#servicebanner{
+width:80%;
+height:480px;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+overflow-y:hidden;
+}
+
+.item img {
+height:75%;
+width:100%;
+}
+
+.item{
+height:480px;
+}
+.carousel-caption{
+height:auto;
+position:relative;
+}
+
+li a{
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+
+}
+
+.navbar .nav li a{
+color: #26577f;
+}
+.nav-pills>.active>a{
+background: #26577f;
+}
+
+.nav-pills>li>a{
+color: #c0392b;
+}
+
+.navbar .nav li a:hover{
+color: #c0392b;
+}
+
+red{
+color: #c0392b
+}
+
+blue{
+color: #26577f;
+}
+
+/* clearfix */
+  
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+
+#Carousel{
+/*margin-right:auto;
+margin-left:auto;*/
+width:60%;
+}
